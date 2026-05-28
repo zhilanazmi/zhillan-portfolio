@@ -16,6 +16,7 @@ jobs:
           host: 43.157.206.80
           username: ubuntu
           key: ${{ secrets.VPS_SSH_KEY }}
+          password: ${{ secrets.VPS_PASSWORD }}
           script: |
             set -e
             cd /var/www/zhillan-portfolio
