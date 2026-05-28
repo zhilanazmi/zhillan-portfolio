@@ -34,7 +34,7 @@ export function About() {
               .
             </p>
             <p>
-              Lately I've been deep in Laravel-land — shipping SOP management
+              Lately i've been deep in Laravel-land — shipping SOP management
               systems, logistics platforms, and interactive flowchart editors
               for production teams at PT. Timah Industri and PT. Alita Praya
               Mitra.
