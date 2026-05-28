@@ -13,8 +13,8 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v1.0.3
         with:
-          host: ${{ secrets.VPS_HOST }}
-          username: ${{ secrets.VPS_USER }}
+          host: 43.157.206.80
+          username: ubuntu
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             set -e
